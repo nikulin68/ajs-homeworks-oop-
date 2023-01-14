@@ -1,16 +1,33 @@
-import Bowman from './Bowman';
-import Swordsman from './Swordsman';
-import Magician from './Magician';
-import Undead from './Undead';
-import Zombie from './Zombie';
-import Daemon from './Daemon';
+/* eslint-disable no-console */
+import Bowman from './modules/Bowman';
+import Swordsman from './modules/Swordsman';
+import Magician from './modules/Magician';
+import Daemon from './modules/Daemon';
+import Undead from './modules/Undead';
+import Zombie from './modules/Zombie';
 
-const bowman = new Bowman('Bowman1');
-const bowman2 = new Bowman('Bowman2');
-const swordsman = new Swordsman('Swordsman1');
-const magician = new Magician('Magician1');
-const udead = new Undead('Undead1');
-const zombie = new Zombie('Zombie1');
-const daemon = new Daemon('Daemon1');
+/* для проверки задачи создаём объекты */
+const bowman = new Bowman('Dmitry');
+const swordsman = new Swordsman('Viktor');
+const magician = new Magician('Boris');
+const daemon = new Daemon('Yelena');
+const undead = new Undead('Pavel');
+const zombie = new Zombie('Olga');
 
-console.log(bowman, bowman2, swordsman, magician, udead, zombie, daemon);
+/* для проверки задачи выводим в консоль */
+console.log(bowman);
+console.log(swordsman);
+console.log(magician);
+console.log(daemon);
+console.log(undead);
+console.log(zombie);
+
+/* для проверки задачи вызываем метод levelUp и сам объект после */
+zombie.levelUp();
+console.log('zombie levelUp');
+console.log(zombie);
+
+/* для проверки задачи вызываем метод damage и сам объект после */
+zombie.damage(50);
+console.log('zombie damage 50');
+console.log(zombie);

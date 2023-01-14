@@ -1,51 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1673634689237" clover="3.2.0">
-  <project timestamp="1673634689238" name="All files">
-    <metrics statements="29" coveredstatements="29" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7" elements="41" coveredelements="41" complexity="0" loc="29" ncloc="29" packages="1" files="7" classes="7"/>
-    <file name="Bowman.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Bowman.js">
+<coverage generated="1673705045872" clover="3.2.0">
+  <project timestamp="1673705045873" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="58" coveredelements="58" complexity="0" loc="39" ncloc="39" packages="1" files="7" classes="7"/>
+    <file name="Bowman.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Bowman.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
-    <file name="Character.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Character.js">
-      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <line num="3" count="9" type="cond" truecount="5" falsecount="0"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="6" count="7" type="stmt"/>
-      <line num="7" count="7" type="stmt"/>
-      <line num="8" count="7" type="stmt"/>
+    <file name="Character.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Character.js">
+      <metrics statements="15" coveredstatements="15" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="13" type="cond" truecount="4" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="11" count="11" type="stmt"/>
+      <line num="12" count="11" type="stmt"/>
+      <line num="13" count="11" type="stmt"/>
+      <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="30" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
-    <file name="Daemon.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Daemon.js">
+    <file name="Daemon.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Daemon.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
-    <file name="Magician.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Magician.js">
+    <file name="Magician.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Magician.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
-    <file name="Swordsman.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Swordsman.js">
+    <file name="Swordsman.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Swordsman.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
-    <file name="Undead.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Undead.js">
+    <file name="Undead.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Undead.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
-    <file name="Zombie.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/Zombie.js">
+    <file name="Zombie.js" path="/Users/mac/Desktop/ajs-homeworks-oop-/src/js/modules/Zombie.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
